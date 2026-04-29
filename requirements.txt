@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pyyaml
+joblib
+pymongo
+pymongo[srv]
+imbalanced-learn
+mlflow
+xgboost
+lightgbm
+catboost

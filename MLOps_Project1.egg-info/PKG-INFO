@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: MLOps-Project1
+Version: 0.1
+Summary: A sample MLOps project
+Author: Rajendra Kandel
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pyyaml
+Requires-Dist: joblib
+Requires-Dist: pymongo
+Requires-Dist: pymongo[srv]
+Requires-Dist: imbalanced-learn
+Requires-Dist: mlflow
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+Requires-Dist: catboost
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
