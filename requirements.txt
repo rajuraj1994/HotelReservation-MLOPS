@@ -12,3 +12,5 @@ mlflow
 xgboost
 lightgbm
 catboost
+flask
+gunicorn

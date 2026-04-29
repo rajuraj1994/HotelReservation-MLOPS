@@ -17,6 +17,8 @@ Requires-Dist: mlflow
 Requires-Dist: xgboost
 Requires-Dist: lightgbm
 Requires-Dist: catboost
+Requires-Dist: flask
+Requires-Dist: gunicorn
 Dynamic: author
 Dynamic: requires-dist
 Dynamic: summary
