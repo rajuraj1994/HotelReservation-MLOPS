@@ -29,6 +29,18 @@ pipeline {
             }
         }
 
+        stage('Data Ingestion & Training') {
+            steps {
+                script {
+                    // This runs on your Windows/Host machine network
+                     sh '''
+                     . ${VENV_DIR}/bin/activate
+                     python pipeline/training_pipeline.py
+                     '''
+                     }
+            }
+        }
+
         stage('Build and Push to GHCR') {
             steps {
                 script {

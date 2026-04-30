@@ -21,7 +21,7 @@ COPY . .
 RUN pip install --no-cache-dir -e .
 
 # Train the model before running the application
-RUN python pipeline/training_pipeline.py
+# RUN python pipeline/training_pipeline.py # (Uncomment the above line if you want to train the model during the build process. Otherwise, you can run it separately.)
 
 # Expose the port that Flask will run on
 EXPOSE 5000
