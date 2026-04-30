@@ -27,5 +27,10 @@ RUN groupadd -f docker && \
 RUN mkdir -p /var/lib/docker
 VOLUME /var/lib/docker
 
+# Install Docker CLI
+RUN apt-get update && apt-get install -y docker.io
+# Add jenkins user to the docker group
+RUN usermod -aG docker jenkins
+
 # Switch back to the Jenkins user
 USER jenkins
